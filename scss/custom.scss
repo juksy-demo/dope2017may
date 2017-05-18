@@ -7,7 +7,7 @@ body {
   @include screen(pcSmall) {
     .number {
       // 數字顏色
-      color: $white;
+      color: #66666E;
     }
     .listWrap {
       ul.list {
@@ -16,11 +16,11 @@ body {
           a.tooltip {
             &:before {
               // Tooltip line
-              background-color: $white;
+              background-color: #66666E;
             }
             &:after {
               // Tooltip circle
-              background-color: $white;
+              background-color: #66666E;
             }
           }
           &:nth-child(1) {
